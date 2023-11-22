@@ -7,7 +7,8 @@ from selenium import webdriver
 import time
 '''
 from selenium.webdriver import Chrome
-from selenium.webdriver.chrome.options import Options'''
+from selenium.webdriver.chrome.options import Options
+'''
 
 HEAD_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.111 Safari/537.36'
 
@@ -19,11 +20,11 @@ options.add_argument('--disable-extensions')
 driver = Firefox(options=Options())
 solver = RecaptchaSolver(driver=driver)
 
-username = "ostro_baba"
-password = "Nfmx2XZ9yQE498u"
+username = ""
+password = ""
 drek = 'United States'
 
-try: 
+try:
     driver.get('http://dichvusocks.us/login')
     print(driver.title)
     
